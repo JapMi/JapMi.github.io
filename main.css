@@ -1,0 +1,134 @@
+/*** Изменение полосы прокрутки ***/ 
+::-webkit-scrollbar{ width: auto; /* 1 - вертикальный скроллбар */} 
+::-webkit-scrollbar:horizontal{ height: auto; /* 1 - горизонтальный скроллбар */} 
+::-webkit-scrollbar-button {background: #54629c69; /* 2 - кнопка */} 
+::-webkit-scrollbar-track {background: #54629c69;/* 3 - трек */} 
+::-webkit-scrollbar-thumb {background: #54629c; border-radius: 50px; -webkit-box-shadow: inset 0 0 6px none; /* 5 - ползунок */} 
+html {    background: #b3edff;
+}
+body {
+    background: white;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.16);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h1 {
+    background: wheat;
+    padding: 5px;
+    border-radius: 7px;
+    position: relative;
+    top: -25px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+div.avatar {
+    text-align: center;
+}
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { display: inline; 
+}
+#navbar {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #0066FF;
+    text-align: center;
+    background-color: green;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+#navbar a {
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    transition: 0.2s;
+}
+#navbar a:hover {
+    color: yellow;
+    background-color: darkgreen;
+}
+footer {
+    padding: 0;
+    margin: 1em 0 0;
+    text-align: center;
+    line-height: 2em;
+    background-color: aquamarine;
+}
+img.ytmilisa {
+  width: 100%;
+  height: auto;
+}
+img.ytwe {
+  width: 50%;
+  height: auto;
+}
+.attention {
+    background-color: wheat;
+    text-align: center;
+    font-style: italic;
+    color: #4b00f9;
+    position: relative;
+    top: -40px;
+    width: auto;
+    height: auto;
+}
+.top {
+    margin-top: -32px;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.videos {
+    width: auto;
+    text-align: center;
+    display: block;
+}
