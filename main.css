@@ -30,7 +30,6 @@ h1 {
     padding: 5px;
     border-radius: 7px;
     position: relative;
-    top: -25px;
     text-align: center;
     width: auto;
     height: auto;
@@ -101,7 +100,9 @@ footer {
     margin: 1em 0 0;
     text-align: center;
     line-height: 2em;
-    background-color: aquamarine;
+    background-color: none;
+    width: max-content;
+    float: right;
 }
 img.ytmilisa {
   width: 100%;
@@ -131,4 +132,24 @@ img.ytwe {
     width: auto;
     text-align: center;
     display: block;
+}
+
+/* Страница About */
+.about_bot {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+h1.jami {
+    background: #ff4f4f;
+    color: white;
+}
+h1.foxyleesa {
+    background: #ff47c5;
+    color: white;
+}
+h1.cineman {
+    background: #2a87ff;
+    color: white;
 }
